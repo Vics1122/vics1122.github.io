@@ -342,6 +342,41 @@ main h2:first-of-type {
     padding: 0;
 }
 
+.skills-items{
+    padding-left: 30px;
+}
+
+
+.skill-chip{
+    width: 85px;
+    padding: 8px 12px; 
+    border-radius: 30px; 
+    font-weight: bold; 
+    text-align: center;
+    border: 2px solid;
+    display: grid;
+    place-items: center;
+}
+.skill-expert {
+    background: rgba(59,130,246,0.12); 
+    border-color: rgba(27, 148, 240, 0.575); 
+    color: rgba(16, 106, 224, 0.945);
+    font-size: 12px;
+}
+.skill-proficient {
+    background: rgba(235, 103, 247, 0.069); 
+    border-color: rgba(242, 107, 215, 0.575); 
+    color: rgba(255, 67, 183, 0.683);
+    font-size: 12px;
+}
+
+.skill-familiar {
+    background: rgba(237, 247, 103, 0.069); 
+    border-color: rgba(171, 194, 2, 0.575); 
+    color: rgba(110, 137, 1, 0.683);
+    font-size: 12px;
+}
+
 .awards-list li {
     position: relative;
     padding-right: 110px;
